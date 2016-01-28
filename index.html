@@ -1,18 +1,215 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="This is the page about Tamaken's services.This includes message board, twitter clone, monolist and original serivice.">
+    <meta name="keywords" content="service,original,twitter,monolist,message">
+
+    <title>Tamaken's Services</title>
+
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap-arrows.min.js"></script>
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+    <script type="text/javascript">
+        // scrollspyの起動
+        $('body').scrollspy({
+            target: 'navbar'
+        })
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="80">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tamaken's services</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#message">Message Borard</a></li>
+                    <li><a href="#twitter">Twitter Clone</a></li>
+                    <li><a href="#monolist">Monolist</a></li>
+                    <li><a href="#original">Original Service</a></li>
+                    <li><a href="#bio">Biograpghy</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div id="home" class="home">
+        <div class="text-top">
+            <h1>Tamaken's Services</h1>
+        </div>
+        <div class="arrow-large" data-angle="180"></div>
+    </div>
+    <div class="container section" id="message">
+        <div>
+            <h2>Message Borard</h2>
+            <h3>あの人に、メッセージを。</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="service">
+                    <i class="fa fa-cutlery main-i"></i>
+                    <div class="desc">
+                        <p>父からの伝言も</p>
+                    </div>
+                    <img src="images/img200a.png" alt="img" class="enimg">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="service">
+                    <i class="fa fa-cutlery main-i"></i>
+                    <div class="desc">
+                        <p>母からの伝言も</p>
+                    </div>
+                    <img src="images/img200b.png" alt="img" class="enimg">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="service">
+                    <i class="fa fa-cutlery main-i"></i>
+                    <div class="desc">
+                        <p>犬からの伝言も</p>
+                    </div>
+                    <img src="images/img200c.png" alt="img" class="enimg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section">
+
+        <div id="twitter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2>Twitter Clone</h2>
+                        <h3>人生に、つぶやきを。</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="products-detail" class="pad-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h2 class="panel-title">Timeline</h2>
+                                </div>
+                                <div class="panel-body">
+                                    <a>今日の晩ごはんなんだろうな〜。 17:45</a>
+                                    <br /> <a>あ、コンビニ寄って帰ろう。 18:00</a>
+                                    <br /><a>そろそろ電球が切れそうだ。 18:30</a>
+                                    <br /><a>明日ってMTG何時からだっけ？ 18:43</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="monolist">
+            <div class="container">
+                <h2>Monolist</h2>
+                <h3>私が欲しいものは、コレです。</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">パナソニックの掃除機</li>
+                    <li class="list-group-item">デロンギのコーヒーメーカー</li>
+                    <li class="list-group-item">ニコンのカメラ</li>
+                    <li class="list-group-item">明日生きる情熱</li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="bg-primary" id="original">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">This is ORIGINAL!!</h2>
+                        <hr class="light">
+                        <p class="text-faded">Original content will be here in the future.Original content will be here in the future.Original content will be here in the future.Original content will be here in the future.Original content will be here in the future.Original content will be here in the future.Original content will be here in the future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="success" id="bio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About Me</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <ul class="col-lg-12">
+                            <li>Name:Tamaken</li>
+                            <li>Birth:Oct 15th</li>
+                            <li>From:Kyoto</li>
+                            <li>Job:Web director</li>
+                            <li>Hobby:Camara</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/tamakens/" class="btn btn-default btn-xl">Get Started!</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- attach JavaScripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            var WindowHegiht = $(window).height() / 2;
+            var targetID = $("#hoge").offset().top;
+
+            function getScrollHeight() {
+                if ($(window).scrollTop() > targetID - WindowHegiht) {
+                    $('.btn-contact').css({
+                        transform: 'scale(2)'
+                    });
+                } else {
+                    scale_flag = 'false';
+                    $('.btn-contact').css({
+                        transform: 'scale(1)'
+                    });
+                }
+            }
+
+            $(window).on("load scroll resize", getScrollHeight);
+        </script>
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>

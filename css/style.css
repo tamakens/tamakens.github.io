@@ -1,0 +1,183 @@
+        @charset "UTF-8";
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .text-top {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #message p {
+        text-align: center
+    }
+    
+    #message .row {
+        margin-top: 50px
+    }
+    
+    #twitter {
+        background: #55ACEE
+    }
+    
+    #twitter {
+        color: #ffffff
+    }
+    
+    #monolist {
+        background: #FF9900
+    }
+    
+    #monolist .list-group {
+        margin-top: 50px
+    }
+    
+    #original {
+        background: #f05f40;
+        padding: 100px
+    }
+    
+    #bio {
+        text-align: center;
+    }
+    
+    #bio li {
+        list-style: none
+    }
+    
+    @media (max-width: 767px) {
+        .text-top h1 {
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .text-top h3 {
+            font-size: 1.5em;
+            color: #fff;
+            margin-top: -10px;
+        }
+        .text-top > .btn {
+            margin-bottom: 20px;
+        }
+        #home {
+            background: url(../images/keyvisual.jpg) no-repeat center center;
+            display: table;
+            width: 100%;
+            height: auto;
+            position: relative;
+            margin-top: 50px;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        #products-detail {
+            display: table;
+            width: 100%;
+            height: auto;
+            position: relative;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .enimg {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .text-top h1,
+        .text-top h3 {
+            font-size: 4em;
+            color: #fff;
+        }
+        #home {
+            background: url(../images/keyvisual.jpg) no-repeat center center fixed;
+            display: table;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        #products-detail {
+            display: table;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        /* Content styles
+-------------------------------------------------- */
+        /* Products */
+        #products {
+            background-color: #306d9f;
+            color: #ffffff;
+            padding-bottom: 20px;
+        }
+        #products-detail .panel {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            opacity: 0.85;
+        }
+        h3,
+        h2,
+        .p-center {
+            text-align: center;
+        }
+        .service > p {
+            text-align: center;
+        }
+        .enimg {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+        }
+        .section {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .video {
+            margin-top: 50px;
+        }
+        .content-img {
+            width: 80%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        /* Bootstrap Navigation styles
+-------------------------------------------------- */
+        .navbar-default .navbar-nav > .active {
+            color: #000;
+            background: #BBDDFF;
+        }
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,
+        .navbar-default .navbar-nav > .active > a:focus {
+            color: #000;
+            background: #BBDDFF;
+        }
